@@ -1,0 +1,5 @@
+# Local robot settings — never commit a real one
+ludus.properties
+
+# macOS
+.DS_Store

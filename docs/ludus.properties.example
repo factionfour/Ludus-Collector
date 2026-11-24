@@ -1,0 +1,25 @@
+# Ludus — robot settings
+# Put this file on the Control Hub at /sdcard/FIRST/ludus.properties
+#   adb push ludus.properties /sdcard/FIRST/ludus.properties
+#
+# Only ludus.team is required. Every other line is optional; leave it out
+# to keep the default shown after the "=".
+
+# Your FTC team number. Must match the team number set in Ludus Collector.
+ludus.team=26089
+
+# "auto" searches the robot WiFi for the laptop running Ludus Collector.
+# An address (for example 192.168.43.50) asks only that laptop.
+#ludus.host=auto
+
+# The Collector's data port.
+#ludus.port=8080
+
+# A name for this robot, so two robots are told apart in the Collector.
+#ludus.robot_id=robot
+
+# Only used when runs are uploaded to a Ludus server. The Collector ignores it.
+#ludus.api_key=local
+
+# false blocks the INIT button entirely — Ludus cannot be turned on at all.
+#ludus.enabled=true
